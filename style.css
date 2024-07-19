@@ -19,7 +19,7 @@ body{
     height: 100%;
     width: 100%;
     background-color: #FFF;
-    max-width: 1280px;
+    max-width: 900px;
     padding: 40px;
     justify-content: center;
     align-items: center;
@@ -32,4 +32,16 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.link-wrap{
+    padding: 20px 40px;
+    border-radius: 12px;
+    border: 1px solid #E4E4E4;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-wrap:hover{
+    border: 2px solid #c96100;
 }
